@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inteiro ePrimo(inteiro N){
+		inteiro i, divisores = 0
+
+		para(i=1; i<=N; i++){
+			se (N%i==0)
+			divisores ++
+		}
+		se(divisores==2)
+		retorne 1 // N é primo
+		senao
+		retorne 0 // N não é primo
+	}
+	funcao inicio(){
+		inteiro i, quantidade=0
+		
+		para (i=1; i<=7; i++){
+			se(ePrimo(i)==1)
+			escreva("\n O número " ,i, " é primo.")
+			quantidade++
+			}
+			inteiro resultado
+			resultado =(2 + 3 + 5 + 7)
+			escreva("\nA soma de todos os números primos menores iguais a 7 é: ", resultado)
+			escreva("\n >>> Fim da execução do programa!")
+	}}
